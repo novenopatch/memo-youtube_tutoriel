@@ -1,0 +1,19 @@
+100% des methode de l'interface sont abstraite  genre pas de corps des fonctions,pas de constuctuer pas d'instanciation comme class abstraite
+exemple:
+	interface Flyable{
+	public void fly(String energy);
+}
+//une interface peut etendre une interface(ClassT extends)
+
+//une interface implementer(implements Flyable)
+//comme pour les classe abstraite on implementes toute les methode 
+//on n'edite que les methode qui nous interresse mais ici on peut implementer autant d'interface que l'on veuut dans une classe  normale
+
+
+exeptionellemrnt on peut faire a l'interieur de l'interface:
+
+default public <ce_que_la_fonction_renvoie> <le_nom_de_la_fonction>{
+	//son corps
+	//System.out.println("Test");
+}
+//les class qui implements la class porons redefinir a methode par defaut pourons la redefinir 

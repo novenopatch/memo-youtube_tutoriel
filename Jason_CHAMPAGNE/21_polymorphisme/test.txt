@@ -1,0 +1,18 @@
+le polymorphisme montre son utlite au niveau de son usage 
+on peut créer des tableau d'interface,des tableaux de class abstraite pour faire du polymorphisme
+
+for(Flyable e : e){
+    e.fly();
+}
+
+les class abstraite et les interfaces  permettent le polymorphisme par l'usage inteligent des tableaux
+pour le devellopement zen*_* bien utiliser les class les tableau
+
+super class  Objects ou class abstraite ou interface
+Objects [] memo = new Objects[3];//tableau non dynamique avec trois place reserver
+pour acceder au element memo[<indice dans tab >]
+Objects [] memoDyna = {new toro(),new conat(),new mik()};
+
+le polymorphisme on le voit dans l'utilisation des classes
+
+

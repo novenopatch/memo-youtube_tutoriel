@@ -1,0 +1,4 @@
+super.() pour acceder a une methode
+
+if(<nomvariable> instanceof <nom de la class>)->retourne un boolean
+class nom étandable: juste final avant le nom de la classe, on peut l'utiliser pour les methode cela empeche de modifié la methode aussi public final (methode)

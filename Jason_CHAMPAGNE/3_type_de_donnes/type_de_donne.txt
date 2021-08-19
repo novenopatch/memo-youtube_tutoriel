@@ -1,0 +1,15 @@
+boolean Boolean  1 octet true(1)|false(0)
+
+byte    Byte     1 octet -128 a 127
+
+char   Charater  2 octets Unicode(65536 caratere disponibles)
+
+short  Stort     2 octets  -32768 a 32767
+
+int    Integer   4 octets  -2 147 483 648 a 2 147 483 647
+
+long   Long      8 octets   -2Xy63 a - 2Xy63 -1
+
+float  Float     4 octets   1.4x10Xy-45 a 3.4x10Xy38
+
+double Double    8 octets   4.99x10Xy-324 a 1.7x10Xy308

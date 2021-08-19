@@ -1,0 +1,16 @@
+abstract public class
+au moin une de ces methode est abstract
+
+abstract public class Text{
+    protected String Nmame;
+    public String whoAmi(){
+        return this.Nmame;
+    }
+    abstract public void eat();
+    abstract public speak();
+    //pas de corps pour les methode abstract;
+
+    //une autre class qui implementte(une Heritage) une class abstract doit redefinir tout ces methode abstract
+    //elle permet de factoriser du code entre des class concraite qui sont lier
+    //pour mieux comprendre l'utilisation les class abstraites lire la video sur le polymorphise
+}

@@ -1,0 +1,18 @@
+try
+{
+
+}
+catch(nom_exception e){
+
+}
+catch(Nom_exception e){// pour afficher lé
+    e.printStackTrace();//pour afficher l'Exception
+    e.getMessage();
+
+}
+catch(Exception e){
+
+}
+finally{
+
+}
